@@ -12,14 +12,14 @@ public class TestDemo {
 			throw new IllegalArgumentException("Both parameters must be positive!");
 	}
 	
-	//This method obtains a random int between 1 and 10 and then returns the square of the number
+	//This method obtains a random int between 1 & 10 and then returns the square of the number
 	public int randomNumberSquared() {
 		int n = getRandomInt();
 		return n*n;
 		
 	}
 	
-	//Generates random number between 1&10
+	//Generates random number between 1 & 10
 	public int getRandomInt() {
 		  Random random = new Random();
 		  return random.nextInt(10) + 1;

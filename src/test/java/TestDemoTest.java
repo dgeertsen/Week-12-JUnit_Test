@@ -30,7 +30,7 @@ class TestDemoTest {
 			assertThatThrownBy(() -> testDemo.addPositive(a, b)).isInstanceOf(IllegalArgumentException.class);
 	}
 
-	//Test arguments for combos of a+b being postive, negative or zero
+	//Test arguments for combos of a + b being postive, negative or zero
 	public static Stream<Object> argumentsForAddPositive() {
 		return Stream.of(
 				arguments(2,4,6,false),
